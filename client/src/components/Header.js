@@ -1,6 +1,15 @@
 import React from "react";
 import "../styles/Header.css";
 
+const styles = {
+    headerStyle: {
+        background: "blue",
+    },
+    headingStyle: {
+        fontSize: "80px",
+    },
+};
+
 function Header() {
     return (
         <header>

@@ -2,6 +2,12 @@ import React from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 
-const App = () => <Header />;
-
+function App() { 
+    return (
+        <div>
+            <Header /> 
+            <Navbar />
+        </div>
+    );
+}
 export default App;
