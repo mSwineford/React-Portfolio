@@ -1,25 +1,12 @@
 import React from "react";
 
-const Portfolio = (project) => {
-    const portfolioList = [
-        {
-            title: "sample",
-            description: "sample",
-            github: "sample"
-        },
-    ];
-
+export default function Portfolio() {
     return (
-        <div key={project.title}>
-            <div className="flex-row">
-                {
-                    portfolioList.map((project) => (
-                        <Projects project={project}/>
-                    ))
-                }
-            </div>
+        <div>
+            <h2>My Projects</h2>
+            <li>sample</li>
         </div>
     );
-};
+}
 
-export default Portfolio;
+

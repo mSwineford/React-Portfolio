@@ -8,17 +8,30 @@ const styles = {
     },
 };
 
-function Navbar() {
+function Navbar({ currentPage, handlePageChange}) {
     return (
-        <nav style={styles.navbarStyle} className="navbar">
-            <a href="/">about me</a>
-            <a 
-                href="/"
-                onClick={() => handlePageChange("Portfolio")}
-                >
-                Portfolio
-            </a>
-        </nav>
+        <ul style={styles.navbarStyle} className="navbar">
+            <li className="nav-item">
+                <a 
+                    href="#home"
+                    onClick={() => handlePageChange("Home")}
+                    >
+                    Home
+                </a>
+                <a 
+                    href="#about"
+                    onClick={() => handlePageChange("About")}
+                    >
+                        About Me
+                </a>
+                <a 
+                    href="#portfolio"
+                    onClick={() => handlePageChange("Portfolio")}
+                    >
+                    Portfolio
+                </a>
+            </li>
+        </ul>
     );
 }
 
