@@ -3,6 +3,7 @@ import About from "./About";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState("Home");
@@ -16,6 +17,9 @@ export default function Container() {
         }
         if (currentPage === "Portfolio") {
             return <Portfolio />;
+        }
+        if (currentPage === "Contact") {
+            return <Contact />;
         }
         return <Navbar />;
     };

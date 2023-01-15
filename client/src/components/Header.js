@@ -3,17 +3,18 @@ import "../styles/Header.css";
 
 const styles = {
     headerStyle: {
-        background: "blue",
+        background: "light-blue",
     },
     headingStyle: {
-        fontSize: "80px",
+        fontSize: "60px",
+        margin: "10px"
     },
 };
 
 function Header() {
     return (
-        <header>
-            <h2 className="header">
+        <header style={styles.headerStyle} >
+            <h2 style={styles.headingStyle}className="header">
                 Matthew Swineford
             </h2>
         </header>

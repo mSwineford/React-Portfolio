@@ -30,6 +30,12 @@ function Navbar({ currentPage, handlePageChange}) {
                     >
                     Portfolio
                 </a>
+                <a
+                    href="#contact"
+                    onClick={() => handlePageChange("Contact")}
+                >
+                    Contact
+                </a>
             </li>
         </ul>
     );

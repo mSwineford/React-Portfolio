@@ -1,10 +1,10 @@
 .header {
-    background: blue;
+    background: lightskyblue;
     height: 150px;
 }
 
 .header h2 {
     margin: 0;
     padding-top: 50px;
-    color: blue;
+    color: lightblue;
 }
