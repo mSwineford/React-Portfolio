@@ -22,7 +22,7 @@ function Footer() {
             <h2 style={styles.footingStyleH2}>
                 Contact Info: 
             </h2>
-            <a style={styles.footingStyle}>
+            <a style={styles.footingStyle} href="https://github.com/mSwineford">
                 Github: https://github.com/mSwineford
             </a>
             <a style={styles.footingStyle}>

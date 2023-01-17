@@ -1,13 +1,23 @@
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
 main {
     display: flex;
     justify-content: space-evenly;
 }
 
 .card {
+    background-color: rgb(230, 230, 209);
     flex: 1 1 300px;
     padding: 0 15px 15px;
     margin: 0 50px 40px;
-    
 }
 
 .wapper {

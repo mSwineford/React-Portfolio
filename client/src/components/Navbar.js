@@ -11,7 +11,7 @@ const styles = {
 function Navbar({ currentPage, handlePageChange}) {
     return (
         <ul style={styles.navbarStyle} className="navbar">
-            <p className="nav-item">
+            <p className="navP">
                 <a 
                     href="#home"
                     onClick={() => handlePageChange("Home")}
