@@ -18,7 +18,7 @@ const styles = {
 
 function Footer() {
     return (
-        <footer class="footer" style={styles.footerStyle} >
+        <footer className="footer" style={styles.footerStyle} >
             <h2 style={styles.footingStyleH2}>
                 Contact Info: 
             </h2>

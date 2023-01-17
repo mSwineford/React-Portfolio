@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 1 1 300px;
+    padding: 0 15px 15px;
+    margin: 0 50px 40px;
+    
+}
+
+.wapper {
+    width: fit-content;
+    height: fit-content;
+    border: 5px var(--dark) dashed;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+}

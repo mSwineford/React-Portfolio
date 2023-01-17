@@ -11,7 +11,7 @@ const styles = {
 function Navbar({ currentPage, handlePageChange}) {
     return (
         <ul style={styles.navbarStyle} className="navbar">
-            <li className="nav-item">
+            <p className="nav-item">
                 <a 
                     href="#home"
                     onClick={() => handlePageChange("Home")}
@@ -36,7 +36,7 @@ function Navbar({ currentPage, handlePageChange}) {
                 >
                     Contact
                 </a>
-            </li>
+            </p>
         </ul>
     );
 }
